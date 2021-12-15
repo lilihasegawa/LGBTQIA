@@ -1,0 +1,99 @@
+body{
+    background-color: #f3f3ff;
+    margin: 20px 330px 20px 330px;
+}
+
+.cabecalho {
+    padding: 15px;
+    background-color: #f3f3ff;
+    color: black
+}
+
+.titulo_nav {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.menu{
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+
+.itemMenu {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.linkMenu {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3d8a3f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.titulo{
+    text-align: center;
+    color: #3d8a3f;
+    background-color: #cfffd07c;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 30px 0;
+}
+
+.introducao{
+    font-size: 20px;
+}
+
+.img{
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+
+.texto{
+    font-size: 20px;
+}
+
+.marcados{
+    color:#3d8a3f;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 20px 0 5px 0;
+}
+
+.rodape{
+    text-align: center;
+    background-color: #cfffd07c;
+    margin: 40px 0 40px 0;
+}
+
+@media screen and (min-width: 200px){
+    body{
+        margin: 10px 200px 10px 200px;
+    }
+    
+    .titulo{
+        width: auto;
+    }
+
+    .img {
+        margin: auto;
+        max-width: fit-content;
+    }
+
+    .introducao{
+        font-size: 15px;
+    }
+    
+    .texto{
+        font-size: 15px;
+    }
+} 
+
+a:hover{
+    color: #ffcbd9;
+    font-size: 150%;
+}
